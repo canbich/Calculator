@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }
                 if (multi==true){
-                    result.setText(valueOne*valueTwo+"+");
+                    result.setText(valueOne*valueTwo+"");
                     solution.setText(valueOne+"*"+valueTwo);
                     multi=false;
                 }
